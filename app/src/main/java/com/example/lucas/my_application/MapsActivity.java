@@ -128,7 +128,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     public void udpmsg(String text) throws IOException {
         String address = "177.105.60.245";
-        int port=6666;
+        int port=7566;
 
         InetAddress host = InetAddress.getByName(address);
 
