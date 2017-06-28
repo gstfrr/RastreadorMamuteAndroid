@@ -54,7 +54,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN));;
         mMap.addMarker(marcadorPortaria);
 
-        LatLng mamute = new LatLng(-34, 151);
+        LatLng mamute = new LatLng(-21.2288712, -44.9846763);
         MarkerOptions marcadorMamute = new MarkerOptions()
                 .position(portaria)
                 .title("Mamute está aqui")
